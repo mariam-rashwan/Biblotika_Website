@@ -1,0 +1,142 @@
+header {
+    width: 100%;
+    height: 35px;
+}
+
+.header-s {
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.header-l {
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*  @media all and (min-width: 576px) {
+    .header-l{margin-right:} 
+}*/
+
+
+/*______________________________________________________________________________________________________*/
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+        background-color: #358a99 !important;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+    .navbar .nav-item .dropdown-menu .dropdown-item {
+        color: rgb(255, 255, 255);
+    }
+    .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+        color: #358a99 !important;
+    }
+}
+
+.brand-b {
+    font-size: 35px !important;
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.nav-item {
+    padding-left: 20px !important;
+}
+
+@media all and (min-width: 900px) {
+    .nav-item {
+        padding-left: 10px;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .nav-item {
+        padding-left: 15px;
+    }
+}
+
+.nav-link {
+    padding: 25px !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: #358a99 !important;
+    transition: .6s !important;
+}
+
+.home-page-nav-item {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: #358a99 !important;
+}
+
+.nav-icon {
+    margin-left: 10px;
+}
+
+
+/*______________________________________________________________________________________________________*/
+
+.home-page-fifth-div {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+
+body {
+    background-image: url(../img/book4.jpg);
+}
+
+.about-page-second-div {
+    height: 850px !important;
+    max-width: 600px !important;
+    padding-top: 10px !important;
+}
+
+.form-head {
+    padding: 10px;
+    margin-top: -10px !important;
+}
+
+.form-group {
+    padding: 20px;
+}
+
+.form-control-file {
+    padding-left: 10px;
+}
+
+.form-button {
+    margin-top: 30px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border-radius: 30px !important;
+}
+
+.form-button input {
+    text-decoration: none;
+}
+
+.form-button input:active {
+    text-decoration: none;
+}

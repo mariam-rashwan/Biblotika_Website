@@ -1,0 +1,463 @@
+header {
+    width: 100%;
+    height: 35px;
+}
+
+.header-s {
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.header-l {
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*  @media all and (min-width: 576px) {
+    .header-l{margin-right:} 
+}*/
+
+
+/*______________________________________________________________________________________________________*/
+
+.brand-b {
+    font-size: 35px !important;
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.nav-item {
+    padding-left: 20px !important;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+        background-color: #358a99 !important;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+    .navbar .nav-item .dropdown-menu .dropdown-item {
+        color: rgb(255, 255, 255);
+    }
+    .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+        color: #358a99 !important;
+    }
+}
+
+@media all and (min-width: 900px) {
+    .nav-item {
+        padding-left: 10px;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .nav-item {
+        padding-left: 15px;
+    }
+}
+
+.nav-link {
+    padding: 25px !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: #358a99 !important;
+    transition: .6s !important;
+}
+
+.home-page-nav-item {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: #358a99 !important;
+}
+
+.nav-icon {
+    margin-left: 10px;
+}
+
+
+/*______________________________________________________________________________________________________*/
+
+.home-page-first-div {
+    width: 100%;
+    height: 750px;
+    background-image: url('../img/book6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.home-page-first-div-cover {
+    width: 100%;
+    height: 750px;
+    opacity: .1;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+}
+
+.home-page-first-div-slide {
+    width: 60%;
+    height: 50%;
+    background-repeat: no-repeat;
+    /*position: absolute;
+    background-image: url(../img/ccc.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+    
+
+    flex-direction: row;
+    */
+    background-color: transparent;
+    background-image: url(../img/Path\ 1.png);
+    background-size: 100%;
+    opacity: .8;
+    margin-top: 200px;
+    position: absolute;
+    display: flexbox;
+}
+
+.first-text {
+    font-size: 27px;
+    padding-left: 20px;
+    font-family: cursive;
+    margin-top: 40px;
+    color: rgb(17, 51, 59) !important;
+}
+
+.second-text {
+    font-size: 27px;
+    padding-left: 80px;
+    font-family: cursive;
+    color: rgb(17, 51, 59) !important;
+}
+
+.third-text {
+    font-size: 27px;
+    padding-left: 20px;
+    font-family: cursive;
+    color: rgb(17, 51, 59) !important;
+}
+
+.fouth-text {
+    font-size: 27px;
+    padding-left: 100px;
+    font-family: cursive;
+    color: rgb(17, 51, 59) !important;
+}
+
+.first-bold {
+    font-size: 37px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home-page-first-div {
+        height: 600px;
+    }
+    .home-page-first-div-cover {
+        height: 600px;
+    }
+    .first-text {
+        font-size: 20px;
+        padding-left: 20px;
+        font-family: cursive;
+        margin-top: 40px;
+        color: rgb(17, 51, 59) !important;
+    }
+    .second-text {
+        font-size: 20px;
+        padding-left: 80px;
+        font-family: cursive;
+        color: rgb(17, 51, 59) !important;
+    }
+    .third-text {
+        font-size: 20px;
+        padding-left: 20px;
+        font-family: cursive;
+        color: rgb(17, 51, 59) !important;
+    }
+    .fouth-text {
+        font-size: 20px;
+        padding-left: 100px;
+        font-family: cursive;
+        color: rgb(17, 51, 59) !important;
+    }
+    .first-bold {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .home-page-first-div {
+        height: 400px;
+    }
+    .home-page-first-div-cover {
+        height: 400px;
+    }
+    .home-page-first-div-slide {
+        margin-top: 100px;
+    }
+    .first-text {
+        font-size: 15px;
+        padding-left: 20px;
+        font-family: cursive;
+        margin-top: 40px;
+        color: rgb(17, 51, 59) !important;
+    }
+    .second-text {
+        font-size: 15px;
+        padding-left: 80px;
+        font-family: cursive;
+        color: rgb(17, 51, 59) !important;
+    }
+    .third-text {
+        font-size: 15px;
+        padding-left: 20px;
+        font-family: cursive;
+        color: rgb(17, 51, 59) !important;
+    }
+    .fouth-text {
+        font-size: 15px;
+        padding-left: 100px;
+        font-family: cursive;
+        color: rgb(17, 51, 59) !important;
+    }
+    .first-bold {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .first-text {
+        font-size: 10px;
+        padding-left: 20px;
+        font-family: cursive;
+        margin-top: 40px;
+        color: rgb(17, 51, 59) !important;
+    }
+    .second-text {
+        font-size: 10px;
+        padding-left: 80px;
+        font-family: cursive;
+        color: rgb(17, 51, 59) !important;
+    }
+    .third-text {
+        font-size: 10px;
+        padding-left: 20px;
+        font-family: cursive;
+        color: rgb(17, 51, 59) !important;
+    }
+    .fouth-text {
+        font-size: 10px;
+        padding-left: 100px;
+        font-family: cursive;
+        color: rgb(17, 51, 59) !important;
+    }
+    .first-bold {
+        font-size: 20px;
+    }
+}
+
+
+/*_________________________________________________________________________________________*/
+
+.home-page-second-div {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 234, 219);
+    position: relative;
+}
+
+.home-page-alert {
+    border-radius: 40px !important;
+    height: 100px !important;
+    font-size: 20px !important;
+    padding-top: 35px !important;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 160px;
+    background-color: #358a99 !important;
+    color: white !important;
+}
+
+.home-page-second-div-button1 {
+    z-index: 3;
+    position: relative;
+    top: 100px;
+    padding: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    background-color: #358a99;
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.home-page-second-div-button1:hover {
+    background-color: rgb(255, 255, 255);
+    color: #358a99 !important;
+    padding-right: 60px !important;
+    padding-left: 60px !important;
+    transition: .4s;
+}
+
+
+/*__________________________________________________________________________________________*/
+
+.home-page-third-div {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 80px;
+}
+
+.card-home-page-1 {
+    border-style: none !important;
+    background-color: rgb(176, 212, 208);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card-home-page-2 {
+    border-style: none !important;
+    background-color: rgb(254, 195, 155);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card-home-page-icon {
+    color: rgb(50, 50, 50) !important;
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-page-third-div {
+        width: 100%;
+        height: 1500px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        margin-top: 80px;
+    }
+}
+
+
+/*_______________________________________________________________________________________________*/
+
+.home-page-fourth-div {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    margin-top: 80px;
+}
+
+.home-page-fourth-div-text {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: 250px;
+    font-family: cursive;
+    color: rgb(17, 51, 59);
+}
+
+@media only screen and (max-width: 768px) {}
+
+.upload-link {
+    text-decoration: none;
+    padding: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.upload-link:hover {
+    color: #358a99 !important;
+}
+
+
+/*___________________________________________________________________________________________________*/
+
+.home-page-fifth-div {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+
+.head {
+    padding: 30px;
+}
+
+.head a {
+    text-decoration: none;
+}
+
+.info {
+    background-color: #EEFF92;
+    padding: 50px;
+}
+
+.info .p-info {
+    width: 75%;
+    margin: 20px;
+    font-size: 1.4em;
+    color: #F2BC0F;
+}
+
+.audiobook-cards {
+    padding: 50px;
+}
+
+.card1 {
+    margin-bottom: 40px;
+}
+
+.c-img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    margin-top: 5px;
+}
+
+.card-info h4 {
+    color: #0B1678;
+    font-weight: bold;
+}
+
+.card-info span {
+    color: #475099;
+}
+
+.card-info p {
+    margin-bottom: 0px;
+}
+
+footer {
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: #224750;
+}
